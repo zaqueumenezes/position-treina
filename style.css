@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vh;
+}
+
+.pai {
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+    position: fixed;
+    /* top: 20px; */
+    /* right: 20px;
+    bottom: 20px;*/
+    position: absolute;
+    left: 400px;   
+} 
+
+.filho {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: sticky;
+    top: 100px;
+    left: 20px;
+}
+
+.static {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 541px;
+}
+
+.caixa {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    left: 1000px;
+    opacity: .3;
+}
+
+
+.caixa1 {
+    width: 260px;
+    height: 260px;
+    background-color: blue;
+    position: sticky;
+    top: 200px;
+}
